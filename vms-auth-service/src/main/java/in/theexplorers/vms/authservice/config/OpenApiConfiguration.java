@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
  * Provides API metadata visible in Swagger UI.
  */
 @Configuration
-public class OpenApiConfig {
+public class OpenApiConfiguration {
 
     /**
      * Configures OpenAPI metadata for Auth Service.
