@@ -11,6 +11,8 @@ import org.springframework.context.annotation.Configuration;
 /**
  * OpenAPI configuration for Swagger documentation.
  * Provides API metadata visible in Swagger UI.
+ *
+ * http://localhost:8080/swagger-ui/index.html
  */
 @Configuration
 public class OpenApiConfiguration {

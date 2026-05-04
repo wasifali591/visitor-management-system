@@ -3,6 +3,8 @@ package in.theexplorers.vms.authservice.user.dto;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
+import java.time.LocalDateTime;
+
 /**
  * Response DTO for user.
  */
@@ -15,4 +17,10 @@ public class UserResponse {
     private String username;
 
     private String email;
+
+    private String fullName;
+
+    private Boolean isActive;
+
+    private LocalDateTime createdOn;
 }

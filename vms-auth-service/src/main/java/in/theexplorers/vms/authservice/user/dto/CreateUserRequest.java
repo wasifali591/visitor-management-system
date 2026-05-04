@@ -26,4 +26,7 @@ public class CreateUserRequest {
     @Email(message = "Invalid email format")
     @Schema(example = "wasif@gmail.com")
     private String email;
+
+    @Schema(example = "Wasif Ali")
+    private String fullName;
 }
